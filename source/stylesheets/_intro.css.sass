@@ -1,0 +1,73 @@
+.index-intro
+  position: relative
+  text-align: center
+  max-height: 640px
+  background-color: $blue
+  background-size: auto 100%
+  background-position: 50% 0
+  background-image: image-url("index-intro.jpg")
+  background-repeat: no-repeat
+  +high-dppx
+    background-image: image-url("index-intro@2x.jpg")
+
+.index-intro-elbow
+  padding-bottom: 80%
+
+.index-intro-slogan
+  font-size: 42px
+  line-height: 42px
+  text-transform: uppercase
+  color: white
+  letter-spacing: 0.05em
+  font-weight: $bold
+  position: absolute
+  left: 10%
+  right: 10%
+  bottom: 72%
+  @media (max-width: $width-820)
+    font-size: 5vw
+    line-height: 5vw
+  @media (max-width: $width-640)
+    font-size: 32px
+    line-height: 32px
+    font-size: 5vw
+    line-height: 5vw
+  @media (max-width: $width-480)
+    font-size: 24px
+    line-height: 24px
+    font-size: 5vw
+    line-height: 5vw
+
+.index-intro-title
+  position: absolute
+  left: 7.2%
+  right: 7.2%
+  top: 33.7%
+  margin: auto
+  max-width: 680px
+
+.index-intro-logo
+  display: block
+  width: 100%
+
+.index-intro-actions
+  position: absolute
+  left: 0
+  right: 0
+  top: 60%
+  max-width: 450px
+  margin: auto
+  .big.button
+    box-shadow: 0 10px 10px rgba(#1a30b4, 0.5)
+  @media (max-width: $width-480)
+    top: 58%
+
+.index-intro-secondary-actions
+  margin-top: 20px
+  .store-button
+    margin: 10px
+  @media (max-width: $width-640)
+    margin-top: 10px
+  @media (max-width: $width-480)
+    .store-button
+      margin: 2px

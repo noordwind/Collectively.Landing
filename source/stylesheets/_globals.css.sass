@@ -1,0 +1,23 @@
+$base-font: "Open Sans", sans-serif
+$header-font: "Varela Round", sans-serif
+
+$bold: 700
+
+$blue: #2a6cf7
+$yellow: #fbed20
+
+$width-820: 820px
+$width-640: 640px
+$width-480: 480px
+
+=high-dppx
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+    @content
+
+=antialiased-font
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+=subpixel-font
+  -webkit-font-smoothing: subpixel-antialiased
+  -moz-osx-font-smoothing: unset

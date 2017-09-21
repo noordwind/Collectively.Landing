@@ -1,0 +1,10 @@
+en:
+  app:
+    name: "Collectively"
+  index:
+    title: "Collectively"
+    intro:
+      slogan: "Let’s go for the better"
+      register: "Join your community"
+      google_play: "Get it on GooglePlay"
+      app_store: "iOS app coming soon!"

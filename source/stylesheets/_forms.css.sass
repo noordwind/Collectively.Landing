@@ -1,0 +1,41 @@
+.button
+  border-radius: 5px
+  display: inline-block
+  background: $blue
+  color: white
+  font-family: $header-font
+  font-size: 18px
+  line-height: 20px
+  box-sizing: border-box
+  padding: 10px 15px
+  width: 220px
+  text-decoration: none
+  box-shadow: 0 4px 2px rgba(black, 0.1)
+  vertical-align: top
+  +antialiased-font
+
+  &.big
+    width: auto
+    @media (min-width: $width-480)
+      font-size: 24px
+      line-height: 24px
+      height: 50px
+      padding: 13px 20px
+
+  &.yellow
+    background-color: $yellow
+    color: black
+
+
+.store-button
+  display: inline-block
+  height: 50px
+  width: 169px
+  vertical-align: top
+  img
+    display: block
+    width: 100%
+    height: 100%
+  @media (max-width: $width-480)
+    height: 40px
+    width: 135px

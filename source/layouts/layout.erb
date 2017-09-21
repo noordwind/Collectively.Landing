@@ -5,10 +5,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= yield_content(:title) %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Varela+Round&amp;subset=latin-ext" rel="stylesheet">
   </head>
   <body>
     <%= yield %>
