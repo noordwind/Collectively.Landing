@@ -1,0 +1,269 @@
+.index-about
+  padding: 30px 0
+  background-image: image-url("index-about-background.svg")
+  background-repeat: repeat-x
+  background-position: 50% 0
+  .header-1
+    text-align: center
+    padding: 0 10px
+  @media (max-width: $width-480)
+    padding: 10px 0
+
+.index-about-wrapper
+  margin: auto
+  max-width: 820px
+  overflow: hidden
+  padding: 0 10px
+
+.index-about-text, .index-about-path
+  position: absolute
+
+.index-about-image
+  position: relative
+
+.index-about-image-bg
+  height: 0
+  background-image: image-url("index-about.svg")
+
+.index-about-path
+  overflow: hidden
+
+.index-about-step
+  padding: 10px 0
+  position: relative
+
+.index-about-number
+  width: 32px
+  height: 32px
+  border-radius: 50%
+  background-color: $light-blue
+  color: white
+  font-family: $header-font
+  text-align: center
+  line-height: 32px
+  position: absolute
+  top: 50%
+  margin-top: -16px
+
+.index-about-subnumber
+  display: none
+
+.index-about-number-break
+  display: none
+
+@media (max-width: $width-640)
+  .index-about-step
+    border-bottom: 1px dotted $light-grey
+  .index-about-path
+    display: none
+  .index-about-number
+    position: static
+    margin-bottom: 20px
+    display: inline-block
+  .index-about-subnumber
+    display: inline
+  .index-about-number-break
+    display: block
+
+
+
+
+
+$about-sprite-width: 1070px
+$about-sprite-height: 400px
+
+=about-image($width, $height, $left, $top)
+  width: $width
+  height: $height
+  .index-about-image-bg
+    width: $width
+    height: $height
+    background-position: (-$left) (-$top)
+    background-size: $about-sprite-width $about-sprite-height
+
+
+
+
+.index-about-step.step-1
+  .index-about-text
+    left: 22%
+    margin-left: -30px
+    text-align: right
+  .index-about-number
+    left: 100%
+    margin-left: 10px
+  .index-about-image
+    &.image-1
+      +about-image(115px, 165px, 0px, 0px)
+      left: -34px
+      margin: auto
+      top: 80px
+    &.image-2
+      +about-image(150px, 150px, 115px, 0px)
+      left: 120px
+      margin: auto
+      top: -170px
+      margin-bottom: -70px
+  .index-about-path
+    +about-image(55px, 65px, 180px, 245px)
+    width: auto
+    max-width: 55px
+    left: 28%
+    top: 78px
+    margin-left: 20px
+    width: 6%
+  @media (max-width: $width-640)
+    .index-about-text
+      left: 0
+      margin-left: 0
+      right: 70%
+      margin-right: -80px
+    .index-about-image
+      &.image-1
+        top: -10px
+        left: 30%
+        margin-left: 110px
+      &.image-2
+        left: 30%
+        margin-left: 240px
+        margin-bottom: -150px
+
+.index-about-step.step-2-a
+  .index-about-text
+    top: 110px
+    left: 34%
+  .index-about-number
+    position: static
+    margin-bottom: 20px
+  .index-about-image
+    +about-image(170px, 220px, 290px, 0px)
+    width: 170px
+    left: 30%
+    margin-left: -138px
+    top: 20px
+  .index-about-path
+    +about-image(100px, 60px, 235px, 245px)
+    width: auto
+    max-width: 100px
+    left: 26%
+    right: 64%
+    top: -35px
+  @media (max-width: $width-640)
+    .index-about-text
+      left: 40%
+      right: 0
+      top: 80px
+      margin-left: 0
+    .index-about-image
+      top: 0
+      margin-top: 5px
+      left: 40%
+      margin-left: -180px
+
+
+.index-about-step.step-2-b
+  .index-about-image
+    +about-image(180px, 110px, 0px, 245px)
+    width: 180px
+    margin-left: -217px
+    left: 100%
+    top: -66px
+  .index-about-text
+    right: 0
+    max-width: 200px
+    top: 70px
+  .index-about-number
+    left: -50px
+  .index-about-path
+    +about-image(310px, 280px, 460px, 0)
+    width: auto
+    max-width: 310px
+    left: 55%
+    right: 10%
+    margin-right: -30px
+    top: -350px
+    .index-about-image-bg
+      position: absolute
+      right: 0
+  @media (max-width: $width-640)
+    .index-about-image
+      margin-bottom: 40px
+      top: 10px
+      left: 50%
+      margin-left: 75px
+    .index-about-text
+      text-align: right
+      left: 50%
+      top: 30px
+      margin-left: -145px
+
+.index-about-step.step-3
+  .index-about-image
+    +about-image(125px, 150px, 335px, 220px)
+    width: 125px
+    left: 41%
+    margin-top: 60px
+  .index-about-text
+    left: 50%
+    margin-left: 130px
+    top: 120px
+  .index-about-number
+    left: -50px
+  .index-about-path
+    &.path-1
+      +about-image(250px, 270px, 770px, 0px)
+      left: 30%
+      right: 60%
+      top: -160px
+      margin-left: -171px
+    &.path-2
+      +about-image(160px, 75px, 460px, 280px)
+      left: 62%
+      right: 20%
+      top: 19px
+      width: auto
+      max-width: 160px
+      .index-about-image-bg
+        position: absolute
+        right: 0
+  @media (max-width: $width-640)
+    .index-about-image
+      left: 50%
+      margin-top: 10px
+      margin-left: -190px
+    .index-about-text
+      left: 50%
+      right: 0
+      margin-left: -40px
+      top: 40px
+
+
+.index-about-step.step-4
+  .index-about-image
+    +about-image(215px, 120px, 620px, 280px)
+    width: 215px
+    margin-top: 55px
+    left: 29%
+    margin-bottom: 50px
+    body.pl &
+      +about-image(215px, 120px, 835px, 280px)
+  .index-about-text
+    top: 190px
+    left: 47%
+  .index-about-number
+    left: -50px
+  .index-about-path
+    +about-image(50px, 150px, 1020px, 0px)
+    left: 30%
+    top: -20px
+    margin-left: 240px
+  @media (max-width: $width-640)
+    .index-about-image
+      margin-top: 10px
+      left: 60%
+      margin-left: -30px
+    .index-about-text
+      text-align: right
+      left: 60%
+      top: 50px
+      margin-left: -155px

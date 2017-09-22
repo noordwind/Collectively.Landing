@@ -8,3 +8,10 @@ en:
       register: "Join your community"
       google_play: "Get it on GooglePlay"
       app_store: "iOS app coming soon!"
+    about:
+      header: "Collaborate with local community <br /> to improve public space"
+      step1: "See a littered park? <br /> Broken traffic lights? <br /> <strong>Submit a remark</strong>"
+      step2a: "<strong>Gabi and her <br /> friends volunteer</strong> <br /> to collect the garbage"
+      step2b: "<strong>Municipal authorities send technical service</strong> <br /> to fix the lights"
+      step3: "<strong>You are notified</strong> <br /> as soon as the task <br /> is completed"
+      step4: "<strong>Say thanks!</strong>"
