@@ -7,10 +7,12 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= yield_content(:title) %></title>
     <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "https://code.jquery.com/jquery-3.2.1.min.js" %>
     <%= javascript_include_tag "site" %>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Varela+Round&amp;subset=latin-ext" rel="stylesheet">
   </head>
   <body class="<%= I18n.locale %>">
+    <%= partial "shared/header" %>
     <%= yield %>
     <%= partial "shared/footer" %>
   </body>

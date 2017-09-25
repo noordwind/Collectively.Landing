@@ -1,0 +1,8 @@
+<section class="page-header" data-component="header">
+  <%= image_tag "logo-small.svg", alt: t("app.name"), class: "page-header-logo" %>
+  <%= partial "shared/navigation" %>
+</section>
+<nav class="page-language-nav">
+  <%= link_to "pl", "/pl", class: "page-language-nav-link #{"current" if I18n.locale == :pl}" %>
+  <%= link_to "en", "/", class: "page-language-nav-link #{"current" if I18n.locale == :en}" %>
+</nav>

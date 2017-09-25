@@ -5,6 +5,50 @@ body
   clear: both
 
 
+.page-header
+  background-color: $blue
+  position: fixed
+  left: 0
+  right: 0
+  top: 0
+  height: 30px
+  padding: 5px
+  z-index: 10
+  box-shadow: 0 2px 1px rgba(black, 0.1)
+  transform: translateY(-45px)
+  transition: transform 100ms $ease-in-cubic
+  &.visible
+    transform: none
+    transition-timing-function: $ease-out-cubic
+  @media (max-width: $width-640)
+    .page-navigation
+      display: none
+
+.page-language-nav
+  position: fixed
+  right: 10px
+  top: 10px
+  z-index: 10
+
+.page-language-nav-link
+  color: white
+  text-transform: uppercase
+  opacity: 0.7
+  font-size: 14px
+  padding: 5px 3px
+  +antialiased-font
+  &:hover
+    opacity: 1
+  &.current
+    font-weight: $bold
+    opacity: 1
+
+
+.page-header-logo
+  float: left
+  margin-right: 20px
+
+
 .page-navigation-item
   display: inline-block
   color: white

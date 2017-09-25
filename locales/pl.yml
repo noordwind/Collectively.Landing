@@ -1,0 +1,49 @@
+en:
+  app:
+    name: "Collectively"
+    navigation:
+      about: "About"
+      for_developers: "For developers"
+      contact: "Contact"
+  index:
+    title: "Collectively"
+    intro:
+      slogan: "Let’s go for the better"
+      register: "Join your community"
+      google_play: "Get it on GooglePlay"
+      app_store: "iOS app coming soon!"
+    about:
+      header: "Collaborate with local community <br /> to improve public space"
+      step1: "See a littered park? <br /> Broken traffic lights? <br /> <strong>Submit a remark</strong>"
+      step2a: "<strong>Gabi and her <br /> friends volunteer</strong> <br /> to collect the garbage"
+      step2b: "<strong>Municipal authorities send technical service</strong> <br /> to fix the lights"
+      step3: "<strong>You are notified</strong> <br /> as soon as the task <br /> is completed"
+      step4: "<strong>Say thanks!</strong>"
+    platforms:
+      header: "Available on your device wherever you are"
+      description: "Use Collectively on the go or from home. Install Collectively mobile app or use it in your browser."
+    open_source:
+      header: "Maintained by Open Source community"
+      paragraph1: "Collectively is an open source platform initiated and initially developed by %{noordwind}."
+      paragraph2: "Not only that is open for anybody to use it free of charge and extend its functionalities, for the counties it prevents the risk of us as a supplier leaving. It is safe for the future and driven by the world-wide developer community."
+      github: "Fork on GitHub"
+      api: "Browse API"
+      travis: "Track on Travis CI"
+    contact:
+      header: "Want to learn more? Contact us"
+      placeholders:
+        name: "Your name"
+        email: "Your email"
+        message: "Your message"
+      noordwind: "Noordwind"
+      address:
+        germany: "Bäderstr. 32<br />23738 Riepsdorf<br />GERMANY"
+        poland: "Przemysłowa 12<br />33-332 Kraków<br />POLAND"
+      email: "info@noordwind.com"
+      facebook: "Facebook"
+      lined_in: "LinkedIn"
+      submit: "Send"
+    last_chance:
+      header: "Enough reading.<br />Let’s actually do something!"
+      description: "Register and start immediately improving your neighborhood!"
+      register: "Register"
