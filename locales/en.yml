@@ -18,3 +18,10 @@ en:
     platforms:
       header: "Available on your device wherever you are"
       description: "Use Collectively on the go or from home. Install Collectively mobile app or use it in your browser."
+    open_source:
+      header: "Maintained by Open Source community"
+      paragraph1: "Collectively is an open source platform initiated and initially developed by %{noordwind}."
+      paragraph2: "Not only that is open for anybody to use it free of charge and extend its functionalities, for the counties it prevents the risk of us as a supplier leaving. It is safe for the future and driven by the world-wide developer community."
+      github: "Fork on GitHub"
+      api: "Browse API"
+      travis: "Track on Travis CI"

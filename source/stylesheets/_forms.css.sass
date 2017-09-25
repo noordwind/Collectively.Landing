@@ -12,7 +12,16 @@
   text-decoration: none
   box-shadow: 0 4px 2px rgba(black, 0.1)
   vertical-align: top
+  text-align: center
   +antialiased-font
+  transition: box-shadow 500ms ease-in-out
+  &:hover
+    box-shadow: 0 10px 10px rgba(black, 0.1)
+    background-color: mix($blue, white, 90%)
+
+  i.icon
+    vertical-align: top
+    margin-right: 0.3em
 
   &.big
     width: auto
@@ -25,6 +34,10 @@
   &.yellow
     background-color: $yellow
     color: black
+    &:hover
+      background-color: mix($yellow, white, 90%)
+
+
 
 
 .store-button

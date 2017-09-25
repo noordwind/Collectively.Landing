@@ -121,3 +121,28 @@
     </div>
   </div>
 </section>
+
+
+<section class="index-open-source">
+  <h2 class="header-1"><%= t("index.open_source.header") %></h2>
+  <div class="index-open-source-text">
+    <p>
+      <%= t("index.open_source.paragraph1", noordwind: link_to("Noordwind", "https://noordwind.com/", target: "_blank", class: "link")) %>
+    </p>
+    <p>
+      <%= t("index.open_source.paragraph2") %>
+    </p>
+  </div>
+  <div class="index-open-source-actions">
+    <a href="https://github.com/noordwind" class="button">
+      <i class="github icon"></i>
+      <%= t("index.open_source.github") %>
+    </a><a href="http://docs.collectively.apiary.io/" class="button">
+      <i class="api icon"></i>
+      <%= t("index.open_source.api") %>
+    </a><a href="https://travis-ci.org/noordwind/" class="button">
+      <i class="travis icon"></i>
+      <%= t("index.open_source.travis") %>
+    </a>
+  </div>
+</section>

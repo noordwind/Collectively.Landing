@@ -1,5 +1,5 @@
 .index-platforms
-  margin: 50px 0
+  margin: 50px 0 150px
   position: relative
   background-color: #1439b6
   background-repeat: no-repeat
@@ -8,6 +8,8 @@
   background-image: image-url("index-platforms-background.jpg")
   +high-dppx
     background-image: image-url("index-platforms-background@2x.jpg")
+  @media (max-width: $width-640)
+    margin-bottom: 30%
 
 .index-platforms-text
   padding: 10px 15px 20px

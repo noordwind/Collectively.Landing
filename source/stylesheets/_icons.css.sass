@@ -1,0 +1,10 @@
+$icons: (github, api, travis)
+
+i.icon
+  width: 20px
+  height: 20px
+  display: inline-block
+  background-image: image-url("icons.svg")
+  @for $i from 1 through length($icons)
+    &.#{nth($icons, $i)}
+      background-position: -20px * ($i - 1) 0
