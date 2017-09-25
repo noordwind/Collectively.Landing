@@ -1,4 +1,4 @@
-en:
+pl:
   app:
     name: "Collectively"
     navigation:
@@ -9,7 +9,7 @@ en:
     title: "Collectively"
     intro:
       slogan: "Let’s go for the better"
-      register: "Join your community"
+      register: "Dołącz do społeczności"
       google_play: "Get it on GooglePlay"
       app_store: "iOS app coming soon!"
     about:

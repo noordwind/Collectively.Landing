@@ -3,6 +3,6 @@
   <%= partial "shared/navigation" %>
 </section>
 <nav class="page-language-nav">
-  <%= link_to "pl", "/pl", class: "page-language-nav-link #{"current" if I18n.locale == :pl}" %>
-  <%= link_to "en", "/", class: "page-language-nav-link #{"current" if I18n.locale == :en}" %>
+  <%= link_to "pl", "/", locale: :pl, class: "page-language-nav-link #{"current" if I18n.locale == :pl}" %>
+  <%= link_to "en", "/", locale: :en, class: "page-language-nav-link #{"current" if I18n.locale == :en}" %>
 </nav>
