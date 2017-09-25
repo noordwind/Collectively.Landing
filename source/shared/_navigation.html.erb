@@ -1,0 +1,11 @@
+<nav class="page-navigation">
+  <ul>
+    <% %w(about for-developers contact).each do |key| %>
+      <li class="page-navigation-item">
+        <a href="#<%= key %>" class="page-navigation-link">
+          <%= t("app.navigation.#{key.underscore}") %>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+</nav>

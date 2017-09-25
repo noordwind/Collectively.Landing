@@ -3,3 +3,37 @@ body
 
 .clear
   clear: both
+
+
+.page-navigation-item
+  display: inline-block
+  color: white
+  font-size: 14px
+  +antialiased-font
+  &::after
+    content: "/"
+    opacity: 0.5
+  &:last-child::after
+    content: none
+
+.page-navigation-link
+  display: inline-block
+  padding: 5px
+  font-weight: $bold
+  &:hover
+    opacity: 0.9
+
+
+
+.page-footer
+  margin-top: 80px
+  padding: 50px 20px
+  background-color: $blue
+  text-align: center
+  .page-navigation
+    margin: auto
+
+.page-footer-logo
+  display: block
+  margin: 0 auto 30px
+  max-width: 100%

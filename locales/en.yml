@@ -1,6 +1,10 @@
 en:
   app:
     name: "Collectively"
+    navigation:
+      about: "About"
+      for_developers: "For developers"
+      contact: "Contact"
   index:
     title: "Collectively"
     intro:
