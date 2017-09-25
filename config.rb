@@ -9,6 +9,8 @@ activate :i18n, mount_at_root: :en
 
 activate :livereload
 
+activate :protect_emails
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 

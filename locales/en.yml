@@ -25,3 +25,17 @@ en:
       github: "Fork on GitHub"
       api: "Browse API"
       travis: "Track on Travis CI"
+    contact:
+      header: "Want to learn more? Contact us"
+      placeholders:
+        name: "Your name"
+        email: "Your email"
+        message: "Your message"
+      noordwind: "Noordwind"
+      address:
+        germany: "Bäderstr. 32<br />23738 Riepsdorf<br />GERMANY"
+        poland: "Przemysłowa 12<br />33-332 Kraków<br />POLAND"
+      email: "info@noordwind.com"
+      facebook: "Facebook"
+      lined_in: "LinkedIn"
+      submit: "Send"

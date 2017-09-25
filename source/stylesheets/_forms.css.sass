@@ -1,5 +1,6 @@
 .button
   border-radius: 5px
+  border: none
   display: inline-block
   background: $blue
   color: white
@@ -14,6 +15,7 @@
   vertical-align: top
   text-align: center
   +antialiased-font
+  cursor: pointer
   transition: box-shadow 500ms ease-in-out
   &:hover
     box-shadow: 0 10px 10px rgba(black, 0.1)
@@ -37,9 +39,6 @@
     &:hover
       background-color: mix($yellow, white, 90%)
 
-
-
-
 .store-button
   display: inline-block
   height: 50px
@@ -52,3 +51,58 @@
   @media (max-width: $width-480)
     height: 40px
     width: 135px
+
+
+
+
+.input
+  margin-bottom: 20px
+  position: relative
+  display: block
+  input, textarea
+    display: block
+    box-sizing: border-box
+    width: 100%
+    height: 35px
+    line-height: 21px
+    padding: 6px 10px
+    border: 1px solid white
+    background: white
+    border-radius: 5px
+    box-shadow: 0 1px 0 rgba(black, 0.1)
+    font-family: $base-font
+    font-size: 16px
+    &::placeholder
+      color: $grey
+    + i.icon
+      display: none
+    &:focus
+      outline: none
+      box-shadow: 0 2px 2px rgba(black, 0.2)
+      + i.icon
+        display: block
+  textarea
+    height: auto
+    min-height: 124px
+    resize: vertical
+  i.icon
+    position: absolute
+    left: 10px
+    top: 7px
+    + input, + textarea
+      padding-left: 40px
+  &.with-errors
+    input, textarea
+      border-color: $red
+  .errors
+    color: $red
+    font-size: 12px
+    margin-top: 5px
+    font-weight: $bold
+
+
+
+.form-actions
+  text-align: right
+  .button
+    width: auto

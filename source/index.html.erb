@@ -126,23 +126,84 @@
 <section class="index-open-source">
   <h2 class="header-1"><%= t("index.open_source.header") %></h2>
   <div class="index-open-source-text">
-    <p>
+    <p class="text-1">
       <%= t("index.open_source.paragraph1", noordwind: link_to("Noordwind", "https://noordwind.com/", target: "_blank", class: "link")) %>
     </p>
-    <p>
+    <p class="text-1">
       <%= t("index.open_source.paragraph2") %>
     </p>
   </div>
   <div class="index-open-source-actions">
-    <a href="https://github.com/noordwind" class="button">
+    <a href="https://github.com/noordwind" class="button" target="_blank">
       <i class="github icon"></i>
       <%= t("index.open_source.github") %>
-    </a><a href="http://docs.collectively.apiary.io/" class="button">
+    </a><a href="http://docs.collectively.apiary.io/" class="button" target="_blank">
       <i class="api icon"></i>
       <%= t("index.open_source.api") %>
-    </a><a href="https://travis-ci.org/noordwind/" class="button">
+    </a><a href="https://travis-ci.org/noordwind/" class="button" target="_blank">
       <i class="travis icon"></i>
       <%= t("index.open_source.travis") %>
     </a>
+  </div>
+</section>
+
+
+<section class="index-contact">
+  <div class="index-contact-wrapper">
+    <div class="index-contact-header">
+      <h2 class="header-1"><%= t("index.contact.header") %></h2>
+    </div>
+    <div class="index-contact-columns">
+      <div class="index-contact-left-column">
+        <form action="/" method="POST">
+          <label class="input">
+            <i class="person icon"></i>
+            <input type="text" name="message[name]" placeholder="<%= t("index.contact.placeholders.name") %>" />
+            <i class="person-blue icon"></i>
+          </label>
+          <label class="input with-errors">
+            <i class="envelope icon"></i>
+            <input type="email" name="message[email]" placeholder="<%= t("index.contact.placeholders.email") %>" />
+            <i class="envelope-blue icon"></i>
+            <div class="errors">
+              cannot be blank
+            </div>
+          </label>
+          <label class="input">
+            <i class="bubble icon"></i>
+            <textarea name="message[message]" placeholder="<%= t("index.contact.placeholders.message") %>"></textarea>
+            <i class="bubble-blue icon"></i>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="button">
+              <i class="plane icon"></i>
+              <%= t("index.contact.submit") %>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="index-contact-right-column">
+        <a href="https://noordwind.com/" target="_blank" class="index-contact-logo">
+          <%= image_tag "noordwind-logo.png", alt: t("index.contact.noordwind") %>
+        </a>
+        <div class="clear"></div>
+        <p class="index-contact-section"><%= t("index.contact.address.germany") %></p>
+        <p class="index-contact-section"><%= t("index.contact.address.poland") %></p>
+        <div class="index-contact-section">
+          <%= mail_to t("index.contact.email"), t("index.contact.email"), class: "link" %>
+          <div class="index-contact-social">
+            <a href="https://www.facebook.com/becollectively/" target="_blank"
+              title="<%= t("index.contact.facebook")%>" class="index-contact-social-link">
+              <i class="facebook icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/company-beta/10834059/" target="_blank"
+              title="<%= t("index.contact.linked_in")%>" class="index-contact-social-link">
+              <i class="linked-in icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
   </div>
 </section>
