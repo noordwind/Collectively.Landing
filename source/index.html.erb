@@ -11,11 +11,7 @@
     <%= link_to t("index.intro.register"), data.config.register_url, class: "button big yellow" %>
 
     <div class="index-intro-secondary-actions">
-      <%- link_to data.config.google_play_url, class: "store-button" do %>
-        <%= image_tag("google-play-#{I18n.locale}.svg", alt: t("index.intro.google_play")) %>
-      <%- end %><div class="store-button">
-        <%= image_tag("app-store-soon-#{I18n.locale}.svg", alt: t("index.intro.app_store")) %>
-      </div>
+      <%= partial "shared/store_links" %>
     </div>
 
   </div>
@@ -23,7 +19,7 @@
 </section>
 
 <section class="index-about">
-  <h2 class="header-1"><%= t("index.about.header") %></h2>
+  <h2 class="header-1 index-about-header"><%= t("index.about.header") %></h2>
   <ol class="index-about-wrapper">
     <li class="index-about-step step-1">
       <div class="index-about-text">
@@ -204,6 +200,20 @@
         </div>
         <div class="clear"></div>
       </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="index-last-chance">
+  <h2 class="header-1"><%= t("index.last_chance.header")%></h2>
+  <div class="index-last-chance-description">
+    <p class="text-1"><%= t("index.last_chance.description")%></p>
+  </div>
+  <div class="index-last-chance-actions">
+    <%= link_to t("index.last_chance.register"), data.config.register_url, class: "button big" %>
+    <div class="index-last-chance-store-links">
+      <%= partial "shared/store_links" %>
     </div>
   </div>
 </section>

@@ -39,3 +39,7 @@ en:
       facebook: "Facebook"
       lined_in: "LinkedIn"
       submit: "Send"
+    last_chance:
+      header: "Enough reading.<br />Let’s actually do something!"
+      description: "Register and start immediately improving your neighborhood!"
+      register: "Register"
