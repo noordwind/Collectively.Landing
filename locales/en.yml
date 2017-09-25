@@ -15,3 +15,6 @@ en:
       step2b: "<strong>Municipal authorities send technical service</strong> <br /> to fix the lights"
       step3: "<strong>You are notified</strong> <br /> as soon as the task <br /> is completed"
       step4: "<strong>Say thanks!</strong>"
+    platforms:
+      header: "Available on your device wherever you are"
+      description: "Use Collectively on the go or from home. Install Collectively mobile app or use it in your browser."
