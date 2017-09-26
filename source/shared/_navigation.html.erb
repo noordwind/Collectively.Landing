@@ -2,7 +2,7 @@
   <ul>
     <% %w(about for-developers contact).each do |key| %>
       <li class="page-navigation-item">
-        <a href="#<%= key %>" class="page-navigation-link">
+        <a href="#<%= key %>" class="page-navigation-link" data-role="scroll-to-link">
           <%= t("app.navigation.#{key.underscore}") %>
         </a>
       </li>
