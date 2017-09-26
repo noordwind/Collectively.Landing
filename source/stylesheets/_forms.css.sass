@@ -20,6 +20,8 @@
   &:hover
     box-shadow: 0 10px 10px rgba(black, 0.1)
     background-color: mix($blue, white, 90%)
+  &:focus
+    outline: none
 
   i.icon
     vertical-align: top
@@ -91,18 +93,44 @@
     top: 7px
     + input, + textarea
       padding-left: 40px
-  &.with-errors
-    input, textarea
-      border-color: $red
   .errors
+    display: none
     color: $red
     font-size: 12px
     margin-top: 5px
     font-weight: $bold
-
-
+  &.with-errors
+    .errors
+      display: block
+    input, textarea
+      border-color: $red
 
 .form-actions
   text-align: right
   .button
     width: auto
+    form.state-loading &, form.state-success &, form.state-failure &
+      display: none
+
+
+.form-state
+  padding: 10px 15px
+  border-radius: 5px
+  color: white
+  +antialiased-font
+  display: none
+  i.icon, i.preloader
+    vertical-align: bottom
+    margin-right: 0.5em
+  &.loading
+    background-color: $grey
+    form.state-loading &
+      display: inline-block
+  &.success
+    background-color: $green
+    form.state-success &
+      display: inline-block
+  &.failure
+    background-color: $red
+    form.state-failure &
+      display: inline-block

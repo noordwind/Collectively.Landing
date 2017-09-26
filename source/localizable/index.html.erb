@@ -151,30 +151,42 @@
     </div>
     <div class="index-contact-columns">
       <div class="index-contact-left-column">
-        <form action="/" method="POST">
+        <form action="https://api.becollective.ly/support/mailing" method="POST" data-component="contact-form" data-translations="<%=h JSON.generate(t("index.contact.errors")) %>">
           <label class="input">
             <i class="person icon"></i>
-            <input type="text" name="message[name]" placeholder="<%= t("index.contact.placeholders.name") %>" />
+            <input type="text" name="name" placeholder="<%= t("index.contact.placeholders.name") %>" />
             <i class="person-blue icon"></i>
+            <div class="errors"></div>
           </label>
-          <label class="input with-errors">
+          <label class="input">
             <i class="envelope icon"></i>
-            <input type="email" name="message[email]" placeholder="<%= t("index.contact.placeholders.email") %>" />
+            <input type="email" name="email" placeholder="<%= t("index.contact.placeholders.email") %>" required/>
             <i class="envelope-blue icon"></i>
-            <div class="errors">
-              cannot be blank
-            </div>
+            <div class="errors"></div>
           </label>
           <label class="input">
             <i class="bubble icon"></i>
-            <textarea name="message[message]" placeholder="<%= t("index.contact.placeholders.message") %>"></textarea>
+            <textarea name="message" placeholder="<%= t("index.contact.placeholders.message") %>" required></textarea>
             <i class="bubble-blue icon"></i>
+            <div class="errors"></div>
           </label>
           <div class="form-actions">
             <button type="submit" class="button">
               <i class="plane icon"></i>
               <%= t("index.contact.submit") %>
             </button>
+            <div class="form-state loading">
+              <i class="preloader"></i>
+              <%= t("index.contact.loading") %>
+            </div>
+            <div class="form-state success">
+              <i class="tick icon"></i>
+              <%= t("index.contact.success") %>
+            </div>
+            <div class="form-state failure">
+              <i class="cross icon"></i>
+              <%= t("index.contact.failure") %>
+            </div>
           </div>
         </form>
       </div>

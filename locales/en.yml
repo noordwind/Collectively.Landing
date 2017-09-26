@@ -35,6 +35,9 @@ en:
         name: "Your name"
         email: "Your email"
         message: "Your message"
+      errors:
+        presence: "cannot be blank"
+        email: "must be a valid e-mail address"
       noordwind: "Noordwind"
       address:
         germany: "Bäderstr. 32<br />23738 Riepsdorf<br />GERMANY"
@@ -43,6 +46,9 @@ en:
       facebook: "Facebook"
       lined_in: "LinkedIn"
       submit: "Send"
+      loading: "Sending"
+      success: "Message sent"
+      failure: "Sorry, something went wrong"
     last_chance:
       header: "Enough reading.<br />Let’s actually do something!"
       description: "Register and start immediately improving your neighborhood!"

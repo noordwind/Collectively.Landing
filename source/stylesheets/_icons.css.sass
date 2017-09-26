@@ -1,4 +1,4 @@
-$icons: (github, api, travis, person, person-blue, envelope, envelope-blue, bubble, bubble-blue, facebook, linked-in, plane)
+$icons: (github, api, travis, person, person-blue, envelope, envelope-blue, bubble, bubble-blue, facebook, linked-in, plane, tick, cross)
 
 i.icon
   width: 20px
@@ -8,3 +8,11 @@ i.icon
   @for $i from 1 through length($icons)
     &.#{nth($icons, $i)}
       background-position: -20px * ($i - 1) 0
+
+i.preloader
+  width: 20px
+  height: 20px
+  display: inline-block
+  background-image: image-url("preloader.svg")
+  background-position: center
+  background-repeat: no-repeat
