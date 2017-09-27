@@ -150,6 +150,20 @@
 </section>
 
 
+<section class="index-partners">
+  <h2 class="header-1"><%= t("index.partners.header") %></h2>
+  <ul>
+    <% data.config.partners.each do |key, partner| %>
+      <li class="index-partners-item">
+        <a href="<%= partner[:url] %>" target="_blank" class="index-partner-logo <%= key %>">
+          <span class="index-partner-logo-text"><%= partner[:name] %></span>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+</section>
+
+
 <section class="index-contact" id="contact">
   <div class="index-contact-wrapper">
     <div class="index-contact-header">

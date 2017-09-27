@@ -1,0 +1,40 @@
+.index-partners {
+  text-align: center;
+  background-color: mix($light-grey, white, 50%);
+  padding: 20px 0 50px;
+}
+
+.index-partners-item {
+  margin: 5px;
+  display: inline-block;
+}
+
+$partner-widths: (
+  zzm: 200px
+);
+
+.index-partner-logo {
+  display: inline-block;
+  height: 70px;
+  background-image: image-url("index-partners.png");
+  background-size: auto 100%;
+  overflow: hidden;
+  +high-dppx {
+    background-image: image-url("index-partners@2x.png");
+  }
+  $left: 0;
+  @each $name, $width in $partner-widths {
+    &.#{$name} {
+      width: $width;
+      background-position: -$left 0;
+      $left: $left + $width;
+    }
+  }
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.index-partner-logo-text {
+  opacity: 0;
+}

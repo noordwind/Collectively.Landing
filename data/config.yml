@@ -1,3 +1,7 @@
 register_url: "https://app.becollective.ly/sign-up"
 google_play_url: "https://play.google.com/store/apps/details?id=com.noordwind.apps.collectively"
 app_store_url: ""
+partners:
+  zzm:
+    url: "http://zzm.krakow.pl/"
+    name: "Zarząd Zieleni Miejskiej w Krakowie"
