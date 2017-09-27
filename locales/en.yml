@@ -29,6 +29,7 @@ en:
       github: "Fork on GitHub"
       api: "Browse API"
       travis: "Track on Travis CI"
+      user_report: "Have an idea? Give feedback"
     contact:
       header: "Want to learn more? Contact us"
       placeholders:

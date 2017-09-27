@@ -9,7 +9,7 @@
   line-height: 20px
   box-sizing: border-box
   padding: 10px 15px
-  width: 220px
+  min-width: 220px
   text-decoration: none
   box-shadow: 0 4px 2px rgba(black, 0.1)
   vertical-align: top
@@ -28,7 +28,7 @@
     margin-right: 0.3em
 
   &.big
-    width: auto
+    min-width: 0
     @media (min-width: $width-480)
       font-size: 24px
       line-height: 24px
@@ -39,7 +39,13 @@
     background-color: $yellow
     color: black
     &:hover
-      background-color: mix($yellow, white, 90%)
+      background-color: mix($yellow, white, 85%)
+
+  &.green
+    background-color: $green
+    &:hover
+      background-color: mix($green, white, 90%)
+
 
 .store-button
   display: inline-block
@@ -108,7 +114,7 @@
 .form-actions
   text-align: right
   .button
-    width: auto
+    min-width: 0
     form.state-loading &, form.state-success &, form.state-failure &
       display: none
 
