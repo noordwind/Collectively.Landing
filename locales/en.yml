@@ -9,8 +9,8 @@ en:
     title: "Collectively"
     intro:
       slogan: "Let’s go for the better"
-      register: "Join your community"
-      google_play: "Get it on GooglePlay"
+      register: "Join our community"
+      google_play: "Get it on Google Play"
       app_store: "iOS app coming soon!"
     about:
       header: "Collaborate with local community <br /> to improve public space"
@@ -21,19 +21,19 @@ en:
       step4: "<strong>Say thanks!</strong>"
     platforms:
       header: "Available on your device wherever you are"
-      description: "Use Collectively on the go or from home. Install Collectively mobile app or use it in your browser."
+      description: "Use Collectively on the move or at home. Install Collectively mobile app or use it in your browser."
     open_source:
-      header: "Maintained by Open Source community"
+      header: "Developed by an Open Source community"
       paragraph1: "Collectively is an open source platform initiated and initially developed by %{noordwind}."
       paragraph2: "Not only that is open for anybody to use it free of charge and extend its functionalities, for the counties it prevents the risk of us as a supplier leaving. It is safe for the future and driven by the world-wide developer community."
       github: "Fork on GitHub"
       api: "Browse API"
       travis: "Track on Travis CI"
-      user_report: "Have an idea? Give feedback"
+      user_report: "Have an idea? Give feedback."
     partners:
       header: "Our partners"
     contact:
-      header: "Want to learn more? Contact us"
+      header: "Want to learn more? Contact us."
       placeholders:
         name: "Your name"
         email: "Your email"
@@ -49,7 +49,7 @@ en:
       facebook: "Facebook"
       lined_in: "LinkedIn"
       submit: "Send"
-      loading: "Sending"
+      loading: "Sending..."
       success: "Message sent"
       failure: "Sorry, something went wrong"
     last_chance:
