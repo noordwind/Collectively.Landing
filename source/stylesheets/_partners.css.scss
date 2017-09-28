@@ -19,7 +19,7 @@ $partner-widths: (
   background-image: image-url("index-partners.png");
   background-size: auto 100%;
   overflow: hidden;
-  +high-dppx {
+  @include high-dppx {
     background-image: image-url("index-partners@2x.png");
   }
   $left: 0;
