@@ -88,6 +88,9 @@ $(function() {
         setTimeout(setState, 5000);
       }).fail(function(e) {
         var status = e.status === 202 ? "success" : "failure";
+        if (status === "success") {
+          $inputs.val("");
+        }
         setState(status);
         setTimeout(setState, 5000);
       }).always(function() {
