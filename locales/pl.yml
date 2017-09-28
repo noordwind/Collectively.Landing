@@ -18,7 +18,7 @@ pl:
       step2a: "<strong>Gabi i jej <br /> znajomi zgłoszą się</strong> <br /> aby pomóc posprzątać"
       step2b: "<strong>Władze miejskie wyślą służby techniczne</strong> <br /> aby naprawić usterkę"
       step3: "<strong>A Ty zostaniesz powiadomiony</strong> <br /> jak tylko zgłoszenie <br /> zostanie wykonane"
-      step4: "<strong>Podziękuje za sprawnie wykonaną pracę!</strong>"
+      step4: "<strong>Podziękuj!</strong>"
     platforms:
       header: "Dostępne na Twoim urządzeniu gdziekolwiek jesteś"
       description: "Używaj Collectively w ruchu lub z domu. Zainstaluj aplikację mobilną lub skorzystaj z przeglądarki."
@@ -29,7 +29,7 @@ pl:
       github: "Fork z GitHub"
       api: "Przeglądnij API"
       travis: "Śledź na Travis CI"
-      user_report: "Masz sugestię? Dodaj opinię."
+      user_report: "Prześlij sugestię"
     partners:
       header: "Nasi partnerzy"
     contact:
