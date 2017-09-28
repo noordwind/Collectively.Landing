@@ -86,8 +86,9 @@ $(function() {
         setState("success");
         $inputs.val("");
         setTimeout(setState, 5000);
-      }).fail(function() {
-        setState("failure");
+      }).fail(function(e) {
+        var status = e.status === 202 ? "success" : "failure";
+        setState(status);
         setTimeout(setState, 5000);
       }).always(function() {
         $inputs.attr("disabled", false);
