@@ -13,7 +13,7 @@ pl:
       google_play: "Pobierz z Google Play"
       app_store: "iOS wkrótce!"
     about:
-      header: "Współpracuj z lokalną społecznością, <br /> aby zmienić swoją okolicą na lepsze"
+      header: "Współpracuj z lokalną społecznością, <br /> aby zmienić swoją okolicę na lepsze"
       step1: "Zaśmiecony park? <br /> Zepsuta sygnalizacja świetlna? <br /> <strong>Zgłoś to</strong>"
       step2a: "<strong>Gabi i jej <br /> znajomi zgłoszą się</strong> <br /> aby pomóc posprzątać"
       step2b: "<strong>Władze miejskie wyślą służby techniczne</strong> <br /> aby naprawić usterkę"
@@ -53,6 +53,6 @@ pl:
       success: "Wiadomość została wysłana"
       failure: "Przepraszamy, coś poszło nie tak"
     last_chance:
-      header: "Wystarczy czytania.<br />Lpeiej coś zróbmy!"
+      header: "Wystarczy czytania.<br />Lepiej coś zróbmy!"
       description: "Zarejestruj się i zacznij już teraz usprawniać swoją okolicę!"
       register: "Rejestracja"
