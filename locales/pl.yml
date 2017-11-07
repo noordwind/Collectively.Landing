@@ -19,13 +19,17 @@ pl:
       step2b: "<strong>Władze miejskie wyślą służby techniczne</strong> <br /> aby naprawić usterkę"
       step3: "<strong>A Ty zostaniesz powiadomiony</strong> <br /> jak tylko zgłoszenie <br /> zostanie wykonane"
       step4: "<strong>Podziękuj!</strong>"
+    blockchain:
+      header: "Rozwiązanie oparte na Blokchain"
+      paragraph1: "Wpływaj na swoje lokalne otoczenie poprzez rozwiązywanie zgłoszeń i uzyskuj dzięki temu prawdziwe benefity."
+      paragraph2: "Wykorzystując technologię Blockchain, użytkownicy mogą zostać nagrodzeni kryptowalutami lub tokenami za swoją aktywność."
     platforms:
       header: "Dostępne na Twoim urządzeniu gdziekolwiek jesteś"
       description: "Używaj Collectively w ruchu lub z domu. Zainstaluj aplikację mobilną lub skorzystaj z przeglądarki."
     open_source:
       header: "Tworzone przez społeczność Open Source"
       paragraph1: "Collectively jest platformą open source, zapoczątkowaną i rozwijaną przez  %{noordwind}."
-      paragraph2: "Nie tylko jest w to pełni otwarte rozwiązanie, dostępne do darmowego użytku jak i rozszerzania jego funkcjonalności przez wszystkich. Ponadto niweluje ryzyko dotyczące zaprzestania prac, ze względu na publicznie dostępny kod źródłowy. Jest to bezpieczne oraz przyszłościowe, gdyż rozwój platformy może być kontynuowany przez programistów z całego świata."
+      paragraph1: "Nie tylko jest w to pełni otwarte rozwiązanie, dostępne do darmowego użytku jak i rozszerzania jego funkcjonalności przez wszystkich. Ponadto niweluje ryzyko dotyczące zaprzestania prac, ze względu na publicznie dostępny kod źródłowy. Jest to bezpieczne oraz przyszłościowe, gdyż rozwój platformy może być kontynuowany przez programistów z całego świata."
       github: "Fork z GitHub"
       api: "Przeglądnij API"
       travis: "Śledź na Travis CI"

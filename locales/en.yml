@@ -19,6 +19,10 @@ en:
       step2b: "<strong>Municipal authorities send technical service</strong> <br /> to fix the lights"
       step3: "<strong>You are notified</strong> <br /> as soon as the task <br /> is completed"
       step4: "<strong>Say thanks!</strong>"
+    blockchain:
+      header: "Blockchain driven solution"
+      paragraph1: "Imagine having an impact on your local environment by resolving the remarks and getting the real benefits out of it."
+      paragraph2: "Thanks to the Blockchain technology, the users might be rewarded with cryptocurriences or tokens for their activites."
     platforms:
       header: "Available on your device wherever you are"
       description: "Use Collectively on the move or at home. Install Collectively mobile app or use it in your browser."
