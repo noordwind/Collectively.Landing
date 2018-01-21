@@ -31,7 +31,7 @@ en:
       paragraph1: "Collectively is an open source platform initiated and initially developed by %{noordwind}."
       paragraph2: "Not only that is open for anybody to use it free of charge and extend its functionalities, for the counties it prevents the risk of us as a supplier leaving. It is safe for the future and driven by the world-wide developer community."
       github: "Fork on GitHub"
-      api: "Browse API"
+      api: "API documentation"
       travis: "Track on Travis CI"
       user_report: "Give feedback"
     partners:

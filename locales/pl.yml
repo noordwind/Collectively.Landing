@@ -31,7 +31,7 @@ pl:
       paragraph1: "Collectively jest platformą open source, zapoczątkowaną i rozwijaną przez  %{noordwind}."
       paragraph2: "Nie tylko jest w to pełni otwarte rozwiązanie, dostępne do darmowego użytku jak i rozszerzania jego funkcjonalności przez wszystkich. Ponadto niweluje ryzyko dotyczące zaprzestania prac, ze względu na publicznie dostępny kod źródłowy. Jest to bezpieczne oraz przyszłościowe, gdyż rozwój platformy może być kontynuowany przez programistów z całego świata."
       github: "Fork z GitHub"
-      api: "Przeglądnij API"
+      api: "Dokumentacja API"
       travis: "Śledź na Travis CI"
       user_report: "Prześlij sugestię"
     partners:
